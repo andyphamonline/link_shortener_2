@@ -1,0 +1,9 @@
+<h1>All links</h1>
+
+<% rows.forEach(function(row) { %>
+	<div class="well">
+		<p>Long URL: <a href="<%= row.url %>"><%= row.url %></a></p>
+		<p>Short URL: <a href="http://localhost:3000/<%= row.hash %>">http://localhost:3000/<%= row.hash %></a></p>
+		<p>Cliked: <%= row.count %></p>
+	</div>
+<% }); %>
