@@ -1,15 +1,3 @@
-T1
-T2
-
-
-M3
-M4
-
-
-
-
-
-
 var express = require("express");
 var app = express();
 var ejsLayouts = require("express-ejs-layouts");
